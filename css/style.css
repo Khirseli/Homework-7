@@ -22,7 +22,6 @@ header{
 ul{
     color: #FFFFFF;
     font-size: 24px;
-    font-weight: 600px;
     display: flex;
     gap: 68px;
 }
@@ -42,13 +41,12 @@ ul{
     /* border: 2px solid red; */
     color: #FFFFFF;
     font-size: 82px;
-    font-weight: 700px;
     width: 1128px;
+    padding: 242px 0 161px 0;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    padding: 242px 0 161px 0;
     text-align: center;
 }
 .second_p{
@@ -94,7 +92,6 @@ ul{
 }
 h1{
     font-size: 75px;
-    font-weight: 600px;
     padding-top: 245px;
 }
 .cards{
@@ -140,6 +137,7 @@ h2{
     margin-top: 59px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 245px;
 }
 .p_for_images{
     font-size: 64px;
@@ -150,6 +148,42 @@ h2{
     left: 21%;
     transform: translate(-21%, -50%);
 }
+/* footer */
+footer{
+    background-color: #262626; 
+    width: 100%;
+    padding: 71px 0 76px 0;       
+}
+.footer_p{
+    font-size: 63px;
+    line-height: 82px;
+    color: #FFFFFF;
+    text-align: center;
+}
+span{
+    color: #DCB47A;
+}
+h5{
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 27px;
+}
+.footer_button{
+    background-color: #DCB47A;
+    width: 205px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: 36px;
+    border-radius: 60px;  
+}
+.div_p{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 21.46px;
+}
+
 
 
 
